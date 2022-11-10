@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesExample", "RazorPagesExample\RazorPagesExample.csproj", "{F8DE7C87-D767-4273-B8D6-F09C26519704}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorExample", "RazorExample\RazorExample.csproj", "{F8DE7C87-D767-4273-B8D6-F09C26519704}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

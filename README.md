@@ -2,4 +2,4 @@
 
 View in this order:
 
-1. RazorPagesExample
+1. RazorExample
