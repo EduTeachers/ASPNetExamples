@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Awesome Page - @ViewData["Title"]</title>
+    <link href="~/css/site.css" rel="stylesheet" type="text/css"/>
+    <script src="~/js/site.js"></script>
+</head>
+<body>
+<header>
+    <ul>
+        <li>
+            <a href="#">Home</a>
+        </li>
+        <li>
+            <a href="#">About me</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+    </ul>
+    <hr/>
+</header>
+<div>
+    @RenderBody()
+</div>
+<footer>
+    <hr/>
+    &copy; @DateTime.Today.Year, Samuel Kodytek
+</footer>
+</body>
+</html>

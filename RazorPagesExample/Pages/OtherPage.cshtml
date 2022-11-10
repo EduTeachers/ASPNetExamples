@@ -1,0 +1,21 @@
+@page
+@{
+    // Layout = "Shared/_Layout";
+    ViewData["Title"] = "Other Page";
+    UserViewModel user = new UserViewModel
+    {
+        FirstName = "Martin",
+        LastName = "M.",
+        BirthDate = DateTime.Now
+    }; 
+}
+
+<p>
+    <a asp-page="Index">Back</a>
+</p>
+<p>
+    User's name: @user.FirstName @user.FirstName
+</p>
+<p>
+    User's birthday: @user.BirthDate
+</p>

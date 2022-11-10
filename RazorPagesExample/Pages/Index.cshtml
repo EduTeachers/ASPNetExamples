@@ -1,0 +1,54 @@
+﻿@page
+@{
+    // Layout = "Shared/_Layout";
+    ViewData["Title"] = "Index";
+    string message = "Hello, world";
+    string[] listOfTeachers = { "Martin", "Samuel", "Adam" };
+}
+
+<div class="text-center">
+    <h2 class="display-4">Welcome</h2>
+    <p>My message: @message</p>
+
+    <h2>List of students (foreach)</h2>
+    <ul>
+        @foreach (string teacher in listOfTeachers)
+        {
+            <li>@teacher</li>
+        }
+    </ul>
+
+    <h2>List of students (while)</h2>
+    @{
+        int j = 0;
+    }
+    <ul>
+        @while (j < listOfTeachers.Length)
+        {
+            <li>@listOfTeachers[j++]</li>
+        }
+    </ul>
+    
+    
+    <h2>List of students (for & if)</h2>
+    <ul>
+        @for (var i = 0; i < listOfTeachers.Length; i++)
+        {
+            var teacher = listOfTeachers[i];
+            <li>
+                @if (i % 2 == 0)
+                {
+                    @teacher
+                }
+                else
+                {
+                    <strong>@teacher</strong>
+                }
+            </li>
+        }
+    </ul>
+    
+    <p>
+        For the other page <a asp-page="OtherPage">click here</a>
+    </p>
+</div>
