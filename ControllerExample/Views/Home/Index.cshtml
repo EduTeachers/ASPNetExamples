@@ -1,0 +1,22 @@
+@model ControllerExample.ViewModels.BookViewModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>@ViewData["MyMessage"]</h2>
+
+<div class="alert alert-danger">
+    @ViewBag.MyDiscustingMessage
+</div>
+
+<div>
+    <h3>Favourite book:</h3>
+    <div>@Model.Title (@Model.YearPublished) - @Model.Author</div>
+    <small class="text-muted">@Model.ISBN</small>
+
+    <p>
+        @Model.Description
+    </p>
+</div>
