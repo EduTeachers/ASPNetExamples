@@ -1,0 +1,10 @@
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Counter 2</h2>
+
+<p>Count: @ViewData["Counter"]</p>
+
+<a class="btn btn-danger" asp-controller="SecondCounter" asp-action="Index" asp-route-counter="@((int)ViewData["Counter"] + 1)">i++;</a>

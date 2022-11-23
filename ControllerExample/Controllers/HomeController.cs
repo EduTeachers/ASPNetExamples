@@ -5,9 +5,9 @@ namespace ControllerExample.Controllers;
 
 public class HomeController : Controller
 {
-    public IActionResult Index()
+    public IActionResult Index(int id)
     {
-        ViewData["MyMessage"] = "Hello, world!";
+        ViewData["MyMessage"] = $"Hello, world! {id}";
 
         ViewBag.MyDiscustingMessage = "Please don't use this ViewBag method!";
         
