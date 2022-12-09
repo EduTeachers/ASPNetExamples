@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorExample", "RazorExampl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControllerExample", "ControllerExample\ControllerExample.csproj", "{16ABE330-183C-4A3E-9B63-F0C125B5000A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormExample", "FormExample\FormExample.csproj", "{73402C6D-C870-44A3-9CEA-FE4062A4269B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{16ABE330-183C-4A3E-9B63-F0C125B5000A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16ABE330-183C-4A3E-9B63-F0C125B5000A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16ABE330-183C-4A3E-9B63-F0C125B5000A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73402C6D-C870-44A3-9CEA-FE4062A4269B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73402C6D-C870-44A3-9CEA-FE4062A4269B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73402C6D-C870-44A3-9CEA-FE4062A4269B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73402C6D-C870-44A3-9CEA-FE4062A4269B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
