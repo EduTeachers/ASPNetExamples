@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "Depe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsAndLambda", "GenericsAndLambda\GenericsAndLambda.csproj", "{49CBA207-0E5B-4028-BDEA-F72BDDA53893}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQExamples", "LINQExamples\LINQExamples.csproj", "{070B0C01-327E-4578-841D-6604ABDA5B6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{49CBA207-0E5B-4028-BDEA-F72BDDA53893}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49CBA207-0E5B-4028-BDEA-F72BDDA53893}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49CBA207-0E5B-4028-BDEA-F72BDDA53893}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070B0C01-327E-4578-841D-6604ABDA5B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070B0C01-327E-4578-841D-6604ABDA5B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070B0C01-327E-4578-841D-6604ABDA5B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070B0C01-327E-4578-841D-6604ABDA5B6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
